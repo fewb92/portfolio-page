@@ -127,15 +127,7 @@ li a:hover {
     flex-wrap: wrap;
 }
 
-.most-recent-project {
-    height: 400px;
-    width: 100%;
-    border: solid 4px orange;
-    margin-bottom: 10px;
-    display: flex;
-}
-
-.older-projects {
+.project {
     height: 200px;
     width: 45%;
     margin: 10px;
@@ -144,6 +136,14 @@ li a:hover {
     display: flex;
     flex: wrap;
     flex-direction: row;
+}
+
+.most-recent-project {
+    height: 400px;
+    width: 100%;
+    border: solid 4px orange;
+    margin-bottom: 10px;
+    display: flex;
 }
 
 .project-title {
@@ -162,7 +162,7 @@ li a:hover {
     color: orange;
 }
 
-.contact-section {
+#contact {
     height: 300px;
 }
 
