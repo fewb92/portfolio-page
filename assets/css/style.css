@@ -9,6 +9,7 @@ body {
     width:70%;
     justify-content: center;
     font-family: 'Teko', sans-serif;
+    background: linear-gradient(white, rgb(243, 200, 121))
 } 
 
 header {
@@ -101,7 +102,7 @@ li a:hover {
 }
 
 .work-section {
-    height: 1500px;
+    height: 950px;
 }
 
 .work-title {
@@ -124,7 +125,6 @@ li a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
 
 .most-recent-project {
@@ -132,6 +132,7 @@ li a:hover {
     width: 100%;
     border: solid 4px orange;
     margin-bottom: 10px;
+    display: flex;
 }
 
 .older-projects {
@@ -140,15 +141,35 @@ li a:hover {
     margin: 10px;
     margin-left: 17px;
     border: solid 4px orange;
+    display: flex;
     flex: wrap;
     flex-direction: row;
 }
 
 .project-title {
+    width: 25%;
+    height: 50px;
+    padding-left: 10px;
+    line-height: 50px;
+    background-color: blue;
     align-self: flex-end;
+    margin-bottom: 10px;
+    z-index: 2;
+}
+
+.project-link {
+    text-decoration: none;
+    color: orange;
 }
 
 .contact-section {
     height: 300px;
 }
 
+.contact-title {
+    float: right;
+    border-left: solid 3px black;
+    padding: 20px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
