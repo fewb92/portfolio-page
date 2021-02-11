@@ -95,8 +95,13 @@ li a:hover {
 .about-section p {
     margin-top: 0;
     padding: 10px;
+    padding-left: 20px;
     width: 85%;
     font-size: 125%;
+}
+
+.work-section {
+    height: 1500px;
 }
 
 .work-title {
@@ -106,6 +111,44 @@ li a:hover {
     writing-mode: vertical-rl;
     text-orientation: upright;
     border-right: solid 3px black;
-    height: 350px;
+    height: 600px;
     text-shadow: 0 5px 15px rgb(221, 141, 36);
 }
+
+.past-work {
+    width: 80%;
+    margin-right: 77px;
+    margin-left: 10px;
+    padding: 5px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.most-recent-project {
+    height: 400px;
+    width: 100%;
+    border: solid 4px orange;
+    margin-bottom: 10px;
+}
+
+.older-projects {
+    height: 200px;
+    width: 45%;
+    margin: 10px;
+    margin-left: 17px;
+    border: solid 4px orange;
+    flex: wrap;
+    flex-direction: row;
+}
+
+.project-title {
+    align-self: flex-end;
+}
+
+.contact-section {
+    height: 300px;
+}
+
