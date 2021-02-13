@@ -198,7 +198,7 @@ li a:hover {
     border-left: solid 1px #000;
 }
 
-@media screen and (max-width:990px) {
+@media screen and (max-width:480px) {
     body {
         width: 90%
     }
@@ -210,11 +210,12 @@ li a:hover {
     .about-title {
     font-size:90%;
     padding: 0 0 0 10px;
+    margin-left: 15px ;
     height: 450px;
     }
 
     .about-section {
-        height: 550px;
+        height: 725px;
     }
 
     .about-section h3 {
@@ -225,6 +226,7 @@ li a:hover {
         margin-top: 0;
         padding: 10px;
         padding-left: 20px;
+        padding-right: 100px;
         width: 85%;
         font-size: 125%;
     }
@@ -258,7 +260,7 @@ li a:hover {
     }
 
     .mini-project-title {
-        width: 40%;
+        width: 50%;
     }
 
     .contact-section {
