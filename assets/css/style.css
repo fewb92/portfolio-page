@@ -35,7 +35,7 @@ nav {
    
 }
 
-ul li {
+nav ul li, ul li {
     list-style: none;
     width: 24%;
     float: left;
@@ -88,7 +88,6 @@ li a:hover {
 
 .headshot {
     height: 300px;
-    width: 300px;
     border: solid 5px orange;
     border-radius: 50%;
 }
@@ -139,7 +138,7 @@ li a:hover {
     flex-direction: row;
 }
 
-#computer-game {
+#placeholder-image {
     background: url(https://images.unsplash.com/photo-1580327344181-c1163234e5a0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1647&q=80);
     background-size: cover;
     background-position: center;
@@ -197,4 +196,72 @@ li a:hover {
 
 .instagram {
     border-left: solid 1px #000;
+}
+
+@media screen and (max-width:590px) {
+    body {
+        width: 90%
+    }
+
+    nav ul li {
+        width: 23%;
+    }
+
+    .about-title {
+    font-size:90%;
+    padding: 0 0 0 10px;
+    height: 450px;
+    }
+
+    .about-section {
+        height: 550px;
+    }
+
+    .about-section h3 {
+        padding-right: 50px;
+    }
+
+    .about-section p {
+        margin-top: 0;
+        padding: 10px;
+        padding-left: 20px;
+        width: 85%;
+        font-size: 125%;
+    }
+
+    .headshot {
+        height: 100px;
+        border: solid 4px orange;
+        border-radius: 50%;
+    }
+
+    .work-title {
+        font-size:90%;
+        padding: 0 10 0 0px;
+        height: 450px;
+        }
+
+    .past-work {
+        width: 60%;
+        margin-right: 60px;
+    }
+
+    .project {
+        height: 100px;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .project-title {
+        width: 40%;
+        height: 50px;
+    }
+
+    .mini-project-title {
+        width: 40%;
+    }
+
+    .contact-section {
+        margin-top: 20px;
+    }
 }
