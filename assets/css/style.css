@@ -198,7 +198,7 @@ li a:hover {
     border-left: solid 1px #000;
 }
 
-@media screen and (min-width:320px) {
+@media screen and (min-width:414px) {
     body {
         width: 90%
     }
@@ -215,7 +215,7 @@ li a:hover {
     }
 
     .about-section {
-        height: 600px;
+        height: 725px;
     }
 
     .about-section h3 {
