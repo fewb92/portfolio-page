@@ -198,7 +198,7 @@ li a:hover {
     border-left: solid 1px #000;
 }
 
-@media screen and (max-width:590px) {
+@media screen and (max-width:990px) {
     body {
         width: 90%
     }
