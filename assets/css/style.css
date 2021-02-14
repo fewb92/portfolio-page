@@ -208,10 +208,10 @@ li a:hover {
     }
 
     .about-title {
-    font-size:90%;
-    padding: 0 0 0 10px;
-    margin-left: 15px ;
-    height: 450px;
+        font-size: 90%;
+        padding: 0 0 0 10px;
+        margin-left: 15px ;
+        height: 450px;
     }
 
     .about-section {
